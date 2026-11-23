@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Install KB Probe</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b1220;color:#e2e8f0;font:15px Arial,sans-serif}
+main{max-width:620px;margin:auto;padding:16px}h1{color:#58a6ff;font-size:22px}h2{font-size:17px}
+.panel{background:#121d31;border:1px solid #243049;border-radius:10px;padding:14px;margin:12px 0}
+p,li{line-height:1.45}a{color:#86efac}
+.ok{color:#86efac}.warn{color:#fca5a5}
+code{display:block;white-space:pre-wrap;word-break:break-word;padding:9px;margin:6px 0;background:#04121a;color:#22c55e;border-radius:6px}
+</style>
+</head>
+<body>
+<main>
+  <h1>KB Probe</h1>
+  <p class="ok"><b>Read-only.</b> Lists how the phone's apps (including the keyboard) are registered — manifest URL, update URL, removable, status. It installs, changes and removes nothing else.</p>
+
+  <section class="panel">
+    <h2>Install</h2>
+    <p>On the phone, open the package manifest to install the signed app the usual way:</p>
+    <p><a href="Apps-directory/KBProbe/update.webmanifest">Apps-directory/KBProbe/update.webmanifest</a></p>
+    <p>Then open <b>KB Probe</b> from the launcher. It runs automatically and shows the dump. Up/Down scroll, Backspace exits.</p>
+  </section>
+
+  <section class="panel">
+    <h2>What to read back</h2>
+    <p>The <b>KEYBOARD</b> block: <code>removable · updateUrl · status · origin</code> — this tells us whether the keyboard could be replaced without root.</p>
+    <p class="warn">If the app shows a permission/denied error instead, a sideloaded app can't reach AppsManager on this build.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Package</h2>
+    <p><a href="Apps-directory/KBProbe/update.webmanifest">update manifest</a> · <a href="Apps-directory/KBProbe/application.zip">application.zip</a> · <a href="webapps.json">catalogue</a></p>
+    <p class="warn">Signed privileged package.</p>
+  </section>
+</main>
+</body>
+</html>

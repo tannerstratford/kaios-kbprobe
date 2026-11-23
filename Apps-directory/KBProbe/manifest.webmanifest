@@ -1,0 +1,28 @@
+{
+  "name": "KB Probe",
+  "short_name": "KB Probe",
+  "description": "Read-only lister of installed apps (keyboard replaceability check)",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "lang": "en-US",
+  "scope": "/",
+  "orientation": "portrait",
+  "id": "kbprobe",
+  "version": "1.0",
+  "icons": [
+    { "src": "/icons/icon_56.png", "type": "image/png", "sizes": "56x56" },
+    { "src": "/icons/icon_112.png", "type": "image/png", "sizes": "112x112" }
+  ],
+  "b2g_features": {
+    "focus_color": "#58a6ff",
+    "version": "1.0",
+    "origin": "kbprobe",
+    "permissions": {
+      "systemXHR": {},
+      "webapps-manage": {},
+      "permissions": {}
+    }
+  }
+}

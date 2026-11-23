@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "categories": [
+    "Utilities"
+  ],
+  "apps": [
+    {
+      "folder": "KBProbe",
+      "name": "KB Probe",
+      "version": "1.0",
+      "category": "Utilities",
+      "description": "Read-only lister of installed apps (keyboard replaceability check)",
+      "sha256": "3915daf6301571257a8dd72ea28539b921da074fa295d89ff14fddb1f27f51ef"
+    }
+  ]
+}

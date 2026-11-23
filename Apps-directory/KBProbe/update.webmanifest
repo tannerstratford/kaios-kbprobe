@@ -1,0 +1,18 @@
+{
+  "name": "KB Probe",
+  "version": "1.0",
+  "package_path": "https://tannerstratford.github.io/kaios-kbprobe/Apps-directory/KBProbe/application.zip",
+  "packaged_size": 17435,
+  "size": 17435,
+  "type": "web",
+  "b2g_features": {
+    "focus_color": "#58a6ff",
+    "version": "1.0",
+    "origin": "kbprobe",
+    "permissions": {
+      "systemXHR": {},
+      "webapps-manage": {},
+      "permissions": {}
+    }
+  }
+}

@@ -1,0 +1,9 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; background: #0b1220; color: #86efac; font: 12px/1.35 monospace; overflow: hidden; }
+#title { flex: none; padding: 6px 10px; font-weight: 700; color: #58a6ff; background: #121d31; border-bottom: 1px solid #243049; text-align: center; font-family: Arial, sans-serif; }
+#out { flex: 1; overflow-y: auto; padding: 8px; white-space: pre-wrap; word-break: break-word; }
+#softkeys { flex: none; display: flex; background: #121d31; border-top: 1px solid #243049; font: 700 12px Arial, sans-serif; color: #e2e8f0; }
+#softkeys span { flex: 1; padding: 6px; text-align: center; }
+#sk-left { text-align: left; } #sk-right { text-align: right; } #sk-center { color: #58a6ff; }
+.err { color: #fca5a5; }
